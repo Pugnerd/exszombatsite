@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #bc865c;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+body .main {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 93vw;
+  height: 85vh;
+  border: 1px solid white;
+}
+
+body .main .navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+}
+
+body .main .left-script {
+  margin: 27px;
+  color: white;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  body .main .left-script {
+    text-align: center;
+  }
+}
+
+body .main #last {
+  margin-bottom: 60px;
+}
+
+body .main .right-script {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  color: white;
+  text-align: right;
+}
+
+@media screen and (max-width: 450px) {
+  body .main .right-script {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 90vw;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+body .main .morella {
+  position: absolute;
+  width: 92.98vw;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  left: -1px;
+  bottom: -50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+body .main .morella h6 {
+  line-height: 45px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #bc865c;
+}
+/*# sourceMappingURL=style.css.map */
